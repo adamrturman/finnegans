@@ -30,7 +30,7 @@ a {
 
 a:hover {
   color: #07B862;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -780,6 +780,7 @@ section {
   border-radius: 0;
 }
 
+
 @media (max-width: 1024px) {
   .about .content, .about .accordion-list {
     padding-left: 0;
@@ -862,6 +863,11 @@ section {
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
+.menu {
+  background-color: #eee;
+  height: 20rem;;
+}
+
 .menu #menu-flters {
   padding: 0;
   margin: 0 auto 0 auto;
@@ -1005,7 +1011,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../img/finnegans1.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1325,10 +1331,7 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
+  padding: 80px 0; 
   position: relative;
 }
 
@@ -1339,7 +1342,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(12, 11, 10, 0.7);
+  background: #ccc;;
 }
 
 .testimonials .section-header {
