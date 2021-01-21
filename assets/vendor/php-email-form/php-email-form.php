@@ -518,7 +518,7 @@ class PHPMailer
      * Uses the Username and Password properties.
      *
      * @see PHPMailer::$Username
-     * @see PHPMailer::$Password
+     * @see PHPMailer::$Passwor
      *
      * @var bool
      */
