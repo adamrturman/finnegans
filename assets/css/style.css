@@ -865,7 +865,7 @@ section {
 --------------------------------------------------------------*/
 .menu {
   background-color: #eee;
-  height: 20rem;;
+  height: 45rem;
 }
 
 .menu #menu-flters {
@@ -943,6 +943,24 @@ section {
   font-size: 14px;
   font-family: "Comic Neue", sans-serif;
   color: #948c81;
+}
+
+@media (max-width: 425px) {
+  .menu {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .menu {
+    height: 35rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu {
+    height: 45rem;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1513,7 +1531,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #057840;
   text-align: center;
   padding: 15px;
   font-weight: 600;
